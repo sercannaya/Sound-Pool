@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/paraVer"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/para_ver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/paraKeserizPara"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/parakeserizpara"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paraVer" />
+
+    <Button
+        android:id="@+id/efendisiDobbyeCorapVerdi"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/efendisi_dobbye_corap_verdi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paraKeserizPara" />
+
+    <Button
+        android:id="@+id/efendisiDobbyeGiysilerVerdi"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/efendisi_dobbye_giysiler_verdi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/efendisiDobbyeCorapVerdi" />
+
+    <Button
+        android:id="@+id/dobbyArtikOzgur"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/dobby_artik_ozgur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/efendisiDobbyeGiysilerVerdi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
